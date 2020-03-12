@@ -11,5 +11,5 @@ and then compare the second number with the third number, if the third is larger
 We will continue to do so until the end of the list
 in the first step, the largest number will be placed
 and in the next steps, the other numbers will appear
-this algorithm has complexity n^2 (at worst)
-and at best the complexity is n
+this algorithm has complexity ```n^2``` (at worst)
+and at best the complexity is ```n```
