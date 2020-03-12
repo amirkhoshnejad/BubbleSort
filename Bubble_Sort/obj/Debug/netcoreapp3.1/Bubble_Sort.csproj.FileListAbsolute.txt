@@ -1,0 +1,11 @@
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.exe
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.deps.json
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.runtimeconfig.json
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.runtimeconfig.dev.json
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.dll
+E:\projects\C#_Project\csharp\Bubble_Sort\bin\Debug\netcoreapp3.1\Bubble_Sort.pdb
+E:\projects\C#_Project\csharp\Bubble_Sort\obj\Debug\netcoreapp3.1\Bubble_Sort.csprojAssemblyReference.cache
+E:\projects\C#_Project\csharp\Bubble_Sort\obj\Debug\netcoreapp3.1\Bubble_Sort.AssemblyInfoInputs.cache
+E:\projects\C#_Project\csharp\Bubble_Sort\obj\Debug\netcoreapp3.1\Bubble_Sort.AssemblyInfo.cs
+E:\projects\C#_Project\csharp\Bubble_Sort\obj\Debug\netcoreapp3.1\Bubble_Sort.dll
+E:\projects\C#_Project\csharp\Bubble_Sort\obj\Debug\netcoreapp3.1\Bubble_Sort.pdb
