@@ -1,13 +1,11 @@
-﻿using System;
+using System;
 
 namespace Bubble_Sort
 {
     class Program
     {
-        static void BubbleSortFirst(){
-            int i,j,m,n;
-            n=10;
-            int [] Array={4,5,8,9,3,6,2,7,1,0};
+        static void BubbleSortFirst(int[] Array,int n){
+            int m,i,j;
             for(i=n-2;i>=0;i--){
                 for(j=0;j<=i;j++){
                     if(Array[j]>=Array[j+1]){
@@ -17,14 +15,13 @@ namespace Bubble_Sort
                     }
                 }
             }
+            Console.Write("your answer is:");
             for(i=0;i<n;i++){
                 Console.Write(Array[i]+"/");
             }
-            Console.WriteLine("");
         }
-        static void BubbleSortSecond(){
-            int i,j,m,n=10,z;            
-            int [] Array={4,5,8,9,3,6,2,7,1,0};
+        static void BubbleSortSecond(int[] Array,int n){
+            int i,j,m,z;            
             for(i=n-2;i>=0;i--){
                 z=0;
                 for(j=0;j<=i;j++){
@@ -42,10 +39,17 @@ namespace Bubble_Sort
                 Console.Write(Array[i]+"/");
             }
         }
-        static void Main(string[] args)
-        {
-            BubbleSortFirst();//order n^2
-            BubbleSortSecond();//order n
+        static void Main(string[] args){
+            int n,i;
+            Console.WriteLine("Please enter the number of the List:");
+            n = Convert.ToInt32(Console.ReadLine()); 
+            Console.WriteLine("please enter List Numbers:");
+            int[] Array = new int[n];
+            for (i = 0; i < n; i++){
+                Array[i]=Convert.ToInt32(Console.ReadLine()); 
+            }
+            BubbleSortFirst(Array,n);//order n^2
+            BubbleSortSecond(Array,n);//order n
         }
     }
 }
